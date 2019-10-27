@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <title>Movie API</title>
+        <style>
+    @import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text|Open+Sans:300,400,700&display=swap');            
+            
+    body {
+        margin: 0px;
+        font-family: 'Open Sans', sans-serif; 
+        font-weight: 100;
+        background-image: url(../images/824236-popular-classic-movies-wallpapers-1920x1139.jpg);
+        }
+    h1 {
+        line-height: 80px;
+        font-family: 'Big Shoulders Text', cursive;
+        text-align: center;
+        }
+    .navbar {
+        height: 80px; 
+        background-color: white;
+        margin-bottom:160px;
+        }
+    .middle-block {
+        display: flex;
+        justify-content: space-evenly;
+        }
+    .crud {
+        display: inline-block;
+        width: 100%;
+        }
+    .crud p.first {
+        font-weight: bold;
+        width: 80px;
+        }
+    .crud p {
+        float: left;
+        }
+    .block {
+        margin-right: 30px;
+        }
+    .block, .block2 {
+        background-color: white;
+        padding: 30px;
+        width: 320px;
+        float:left;
+        display: block;
+        }
+    .bottom {
+        height: 40px;
+        background-color: white;
+        position: absolute;
+        bottom: 0px;
+        display: block;
+        width: 100%;
+        }
+    </style>
+    </head>
+    <body>
+        <div class="navbar">
+         <h1>Top 1000 movies of all time quiz (some day...)</h1>
+        </div>
+            <div class="middle-block">
+        <div class="block"><p>This is the homepage of my first API setup. <br />
+            I will use it to create a movie quiz, but it's a work in progress.</p>
+            <p>For now you can test the API and test the CRUD functionalities.</p>
+            <p style="float: left;margin: 0;line-height: 35px;margin-right: 5px;">Also check out my </p><a href="https://github.com/chiched/movie-api"><img src="../images/GitHub_Logo.png" /></a></div>
+
+<div class="block2">
+<div class="crud"><p class="first">GET:</p><p>/api/movies</p></div>
+<div class="crud"><p class="first">POST:</p><p>/api/movie/:id</p></div>
+<div class="crud"><p class="first">PUT:</p><p>/api/movie/:id</p></div>
+<div class="crud"><p class="first">DELETE:</p><p>/api/movie/:id</p></div>
+</div>
+</div>
+<div class="bottom"></div>
+    </body>
+</html>

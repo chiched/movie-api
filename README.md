@@ -11,7 +11,7 @@ The application is written is Javascript and uses NodeJS for the backend. It is 
 The homepage can be found on **index.html**
 
 
-![Alt text](homepage-scr.jpg?raw=true "Title")
+![Alt text](homepage-scr.png?raw=true "Homepage")
 
 The database has the following row names:
 

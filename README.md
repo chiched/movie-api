@@ -10,9 +10,8 @@ The application is written is Javascript and uses NodeJS for the backend. It is 
 
 The homepage can be found on **index.html**
 
-![](/Users/David/Desktop/Screen Shot 2019-10-27 at 9.13.31 PM.png)
 
-
+![Alt text](homepage-scr.jpg?raw=true "Title")
 
 The database has the following row names:
 

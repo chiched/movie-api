@@ -1,12 +1,15 @@
 # Movie quiz
 
-This is my attempt to create a RESTful API. Once ready I will use this to feed an online movie quiz.
+This was created during my time as a student at Code Chrysalis.
+It is my attempt to create a RESTful API. Once ready I will use this to feed an online movie quiz.
 
-#### Features:
+
+### Features:
 
 The application is written is Javascript and uses NodeJS for the backend. It is connected to the Postgres database via Knex. 
 
-#### Use:
+
+### Use:
 
 The homepage can be found on **index.html**
 
@@ -53,7 +56,8 @@ As the name implies, you can delete any movie through this endpoint.
 
 
 
-#### Future features:
+
+### Future features:
 
 The script will be adapted to excludes edge cases and to accept a wider range of queries.
 
